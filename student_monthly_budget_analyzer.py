@@ -1,0 +1,15 @@
+name=input("Enter student name :")
+income=float(input("Enter your monthly income:"))
+food=float(input("Enter your food expanses:"))
+travel=float(input("enter your travel expenss:"))
+study=float(input("study material expenses:"))
+mobile=float(input("Enter your mobile expenses:"))
+other=float(input("enter your other expenses:"))
+
+total_expanses=(food+travel+study+mobile+other)
+remaining_balance=(income-total_expanses)
+saving_rate=((remaining_balance/income)*100)
+
+print("total_expenses :",total_expanses)
+print("remaining_balance:",remaining_balance)
+print("saving_rate:",saving_rate)
